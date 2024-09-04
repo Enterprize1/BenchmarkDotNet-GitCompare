@@ -5,10 +5,21 @@
         <RootNamespace>BenchmarkDotNet_GitCompare</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageId>Enterprize1.BenchmarkDotNet.GitCompare</PackageId>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Authors>Enterprize1</Authors>
+        <Description>Extension package for BenchmarkDotNet that allows developers to compare benchmarks across different git references (e.g., commits, branches, tags)</Description>
+        <RepositoryUrl>https://github.com/Enterprize1/BenchmarkDotNet-GitCompare</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+        <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="/"/>
+    </ItemGroup>
 </Project>
