@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{E2F5C8D6-F69F-4A43-9399-93656DF46A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet-GitCompare", "BenchmarkDotNet-GitCompare\BenchmarkDotNet-GitCompare.csproj", "{18D74D10-FD3B-4D1B-9ABF-21EA643E4FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F5C8D6-F69F-4A43-9399-93656DF46A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F5C8D6-F69F-4A43-9399-93656DF46A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F5C8D6-F69F-4A43-9399-93656DF46A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F5C8D6-F69F-4A43-9399-93656DF46A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D74D10-FD3B-4D1B-9ABF-21EA643E4FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D74D10-FD3B-4D1B-9ABF-21EA643E4FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D74D10-FD3B-4D1B-9ABF-21EA643E4FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D74D10-FD3B-4D1B-9ABF-21EA643E4FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
